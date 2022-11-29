@@ -6,7 +6,7 @@ public class Main {
         System.out.println(Arrays.toString(unsortedArray)); // Вывод не отсортированного массива
         choiceSort(unsortedArray); // Вызов метода choiceSort и указываем unsortArray указывая что именно нужно отсартировать
     }
-    public static void choiceSort(int[] arrayToSort){ // Создаём метод в котором будет всё сортироваться и сразу задаём название массива
+    public static void choiceSort(int[] arrayToSort){ // Создаём метод в котором будет всё сортироваться и сразу передаём на вход массив
         /*1. Проходим по массиву
           2. Находим минимальный элемент
           3. Меняем местами первый и миннимальный элемент
